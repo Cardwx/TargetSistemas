@@ -124,11 +124,11 @@ let Json =
 ]
 let soma = 0
 // função para descobrir a média mensal
-for(let i = 0; Json[i].valor; i++){
+/*for(let i = 0; Json[i].dia <= Json.length ; i++){
 	if(Json[i].valor > 0)
-	console.log(Json[i].valor)
-	//soma += Json[i].valor
-}
+	console.log(Json[i])
+	soma += Json[i].valor
+}*/
 // funçao para pegar o maior valor
 const maiorValor = Json.reduce(function(prev, current){
 	return (prev.valor > current.valor) ? prev : current
@@ -139,9 +139,30 @@ const maiorValor = Json.reduce(function(prev, current){
 	return (prev.valor < current.valor) ? prev : current
  })
 
- //funçao para descobrir a média mensal
+ // funçao para gerar a média 
+ //remove os dias com valor 0 da média
+ const eliminaZero =(function(){
+	var soma = 0
+	var buceta = 0
+	for (let index = 0; index < Json[29].dia; index++) {
+		//filtra apenas os dias sem lucro para realizar o cálculo da média
+		if(Json[index].valor > 0){
+			soma = parseInt(Json[index].valor)
+			buceta = soma + soma
+			console.log(buceta)
+		}
+		
+	}
+	
+ })
+
+
+
 //imprime os resultados
 console.log("O menor valor ocorreu em",menorValor)
 console.log("O maior valor correu em",maiorValor)
-console.log("Soma da média mensal")
+//console.log("Soma da média mensal:",soma.toFixed(2))
+console.log(eliminaZero())
+
+
 
