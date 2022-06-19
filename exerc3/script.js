@@ -122,22 +122,26 @@ let Json =
 		"valor": 8414.61
 	}
 ]
-
-// imprime o valor selecionado do elemento json
-//console.log(Json)
-
-let cont = 0;
-
-// verifica qual dia teve menor rendimento
-for( cont > 0; cont < 30; cont++){
-	var menor = 0;
-
-	// verifica em qual dia o valor foi menor
-	if(Json[cont].valor == 0){
-		//console.log(Json[cont].valor)
-		console.log("O(s) menore(s) valore(s) identificado(s) foram de",'R$',Json[cont].valor,'No(s) dia(s)',Json[cont].dia)	
+let soma = 0
+// função para descobrir a média mensal
+for(let i = 0; Json[i].valor; i++){
+	if(Json[i].valor > 0)
+	console.log(Json[i].valor)
+	//soma += Json[i].valor
 }
+// funçao para pegar o maior valor
+const maiorValor = Json.reduce(function(prev, current){
+	return (prev.valor > current.valor) ? prev : current
+ })
 
-}
+ // função para gerar o menor valor
+ const menorValor = Json.reduce(function(prev, current){
+	return (prev.valor < current.valor) ? prev : current
+ })
 
+ //funçao para descobrir a média mensal
+//imprime os resultados
+console.log("O menor valor ocorreu em",menorValor)
+console.log("O maior valor correu em",maiorValor)
+console.log("Soma da média mensal")
 
