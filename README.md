@@ -17,7 +17,9 @@ Porém, encontrei dificuldades ao realizar o cálculo da média dentro do vetor,
 
 ## Exercício 4: 
 realizando o cálculo da função de porcentagem, selecionei os dados de lucro em % em converti em gráficos utilizando chartJS, com intuito de deixar o projeto mais apresentável. Os valores apresentados nos gráficos são em relação a média do total dos valores apresentados por cada estado. 
-Exercício 5: Seguindo o desafio proposto, não utilizei nenhuma função pronta(reverse) para realizar o exercício. 
+
+## Exercício 5: 
+Seguindo o desafio proposto, não utilizei nenhuma função pronta(reverse) para realizar o exercício. 
 
 ## Caso seja interesse da empresa
 
