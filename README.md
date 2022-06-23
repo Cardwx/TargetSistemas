@@ -7,7 +7,7 @@ Me chamo Lucas Cardoso barbeiro, tenho 21 anos e estou à procura do meu primeir
 ## Para iniciar os projetos em sua máquina:
 •	Dentro da pasta do GitHub selecione a opção Code e posteriormente a opção Download zip para baixar a pasta dos projetos em ZIP, ou se preferir, copie o link gerado https://github.com/Cardwx/TargetSistemas.git e clone o repositório em seu GitHub.
 <br>
-Como realizei os desafios propostos? 
+## Como realizei os desafios propostos? 
 
 ## Exercício 2:
 Dentro da sequência Fibonacci já defini um número de entrada, o algoritmo se consiste em realizar a busca pelo termo informado considerando-o como número de entrada, ou seja, o valor informado para que seja feita a busca é o 4, serão feitas 4 buscas de dentro da sequência Fibonacci com intuito de procurar o número 4 dentro da sequência, caso não seja encontrado ele retornará um valor false, caso seja será retornado o valor true.
