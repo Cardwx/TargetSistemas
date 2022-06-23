@@ -6,6 +6,7 @@ Me chamo Lucas Cardoso barbeiro, tenho 21 anos e estou à procura do meu primeir
 
 ## Para iniciar os projetos em sua máquina:
 •	Dentro da pasta do GitHub selecione a opção Code e posteriormente a opção Download zip para baixar a pasta dos projetos em ZIP, ou se preferir, copie o link gerado https://github.com/Cardwx/TargetSistemas.git e clone o repositório em seu GitHub.
+<br>
 Como realizei os desafios propostos? 
 
 ## Exercício 2:
